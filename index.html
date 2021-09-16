@@ -465,6 +465,18 @@
 				<div class="col-lg-6">
 
 
+						<p><img class="img-responsive TM" src="assets/img/transfer.jpg" alt="" style="width:600px;height:250px; border:3px solid gray;"data-toggle="modal" data-target="#google"></p>
+					</div>
+					<div class="col-lg-3">
+						<p style = "font-weight: bold; color:#2c3e50">TRANSFERMARKET ANALYSIS</p>
+					<p><more> An interactive dashboard to predict the market value of soccer players in the top 5 European leagues.<br> <span style = "color:blue;" class ="text-responsive p7" data-toggle="modal" data-target="#transfer"> Read more &#187<br/><br/>
+						<!--<sm><i class="icon-tag"></i> Machine Learning</sm></more>  -->
+					</p>
+					</div>
+			
+				<div class="col-lg-6 col-lg-offset-3">
+
+
 						<p><img class="img-responsive EDA" src="assets/img/port10.jpg" alt="" style="width:600px;height:250px; border:3px solid gray;"data-toggle="modal" data-target="#google"></p>
 					</div>
 					<div class="col-lg-3">
@@ -560,21 +572,36 @@
 					</p>
 				</div>
 				
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive fpl" src="assets/img/port07.jpg" alt="" style="width:600px;height:250px; border:3px solid gray;" data-toggle="modal" data-target="#fpl"></p>
-				</div>
-				<div class="col-lg-3">
-						<p style = "font-weight: bold; color:#2c3e50">FANTASY PREMIER LEAGUE ANALYSIS</p>
-					<p><more>A predictive model to forecast the points scored by players of English Premier League as per Fantasy Premier League rules <br><span style = "color:blue;" class ="text-responsive p1" data-toggle="modal" data-target="#fpl"> Read more &#187 </span> <br/><br/>
-						
-					</p>
-				</div>
 				
 		
 		</div><!--/.row -->
 		<br>
 		<br>
 	</div><!--/.container -->
+					
+		
+		<!-- Modal -->
+	<div id="transfer" class="modal fade" role="dialog">
+			<div class="modal-dialog" style="width:1000px;height:1300px;">
+	
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header" style = "background: #34495e;">
+				<button type="button" class="close" data-dismiss="modal"style="color:white">&times;</button>
+				<h4 class="modal-title" style ="color:white;font-weight: bold">Transfermarket Analysis of Soccer Players</h4>
+				</div>
+				<div class="modal-body">
+				<p style="font-size:17px;">The goal of this project was to identify undervalued soccer players in the top 5 European leagues.<br><br>
+				1. Past 5 seasons of data from the top 5 European leagues was utilized to evaluate the market values of players. After feature engineering, multicollinearity was removed using variance inflation factor (VIF).
+				<br> <br>2. An ensemble of linear regression and gradient boosting was implemented to predict the market value and was hosted using a shiny dashboard <a href="https://demoapps.shinyapps.io/Transfer_Market_Analysis/">Link</a>
+				</div>
+				<div class="modal-footer"style = "background: #34495e;">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+	
+			</div>
+		</div>
 
 		<!-- Modal -->
 	<div id="eda" class="modal fade" role="dialog">
@@ -789,31 +816,7 @@
 
 	  </div>
 	</div>
-	
-		<!-- Modal -->
-	<div id="fpl" class="modal fade" role="dialog">
-	  <div class="modal-dialog" style="width:1000px;height:1300px;">
 
-		<!-- Modal content-->
-		<div class="modal-content">
-		  <div class="modal-header"style = "background: #34495e;">
-			<button type="button" class="close" data-dismiss="modal" style="color:white">&times;</button>
-			<h4 class="modal-title"style ="color:white;font-weight: bold">FANTASY PREMIER LEAGUE ANALYSIS</h4>
-		  </div>
-		  <div class="modal-body">
-			<p style="font-size:17px;">Built a predictive model to project the points scored by English Premier League players as per the Fantasy Premier League rules and licensed the same to a Draft Fantasy platform<br><br>
-			The approach is as follows : <br><br>
-			1. After basic cleansing, some of the new interactive features that were introduced are : Opponent difficulty, opposition player difficulty and current form of the player.
-			<br><br>2. Multicollinearity among the variables were removed using Variance Inflation Factor (VIF) <br><br>
-			3. An ensemble of linear regression and gradient boosting was implemented to provide the points projections with a maximum lead time of three weeks</p>
-		  </div>
-		  <div class="modal-footer" style = "background: #34495e;">
-			<button type="button" class="btn btn-default" data-dismiss="modal" style="color:black">Close</button>
-		  </div>
-		</div>
-
-	  </div>
-	</div>
 
 	<section id="contact" name="contact"></section>
 	<!--FOOTER DESCRIPTION -->
