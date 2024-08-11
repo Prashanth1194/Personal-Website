@@ -436,48 +436,48 @@
 				
 				<div class="col-lg-3 col-lg-offset-3 centered">
 						<canvas id="pandas" height="130" width="130"></canvas>
-						<p>dplyr</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("dplyr").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="numpy" height="130" width="130"></canvas>
-						<p>ggplot2</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("ggplot2").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="scikit-learn" height="130" width="130"></canvas>
 						<p>pandas</p>
 						<br>
 						<script>
 							var doughnutData = [
 									{
-										value: 80,
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("pandas").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="numpy" height="130" width="130"></canvas>
+						<p>numpy</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("numpy").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="scikit-learn" height="130" width="130"></canvas>
+						<p>scikit-learn</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
 										color:"#1abc9c"
 									},
 									{
@@ -485,7 +485,7 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("pandas").getContext("2d")).Doughnut(doughnutData);
+								var myDoughnut = new Chart(document.getElementById("scikit-learn").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
 
